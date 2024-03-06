@@ -1,0 +1,23 @@
+.FDP{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* width: 80%; */
+    gap: 20px;
+}
+
+.FDP h1{
+    padding-top: 30px;
+    color: rgb(32, 32, 172);
+    font-size: 40px;
+}
+
+.FDP p{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 35px;
+    font-size: 17px;
+    color: rgb(116, 115, 115);
+}

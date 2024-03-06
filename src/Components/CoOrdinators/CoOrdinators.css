@@ -1,0 +1,83 @@
+.coord{
+    height:400px;
+    padding-top:80px;
+}
+.coord h1{
+    color: rgb(32, 32, 172);
+    font-size: 3.2em;
+
+}
+
+/* .coordCard{
+    position:relative;
+    diplay:flex;
+    flex-direction:column;
+    width:350px;
+    height:190px;
+    background-color:#blue;
+    border-radius:20px;
+    box-shadow:0 35px 80px rgba (0,0,0,0.15);
+}
+.coordImg{
+    position:absolute;
+ 
+    width:100px;
+    height:100px;
+    border-radius:20px 20px 0 0;
+    background:#000;
+    left:50%;
+    top:-50px;
+    transform:translateX(-50%);
+} */
+/* .coordCard{
+    display:flex;
+  flex-direction:column;
+    
+    width:250px;
+    height:110px;
+    align-items:center;
+    text-align:center;
+    border:1px solid;
+    border-radius:8px;
+    gap:10px;
+    background-color: rgb(32, 32, 172);
+
+} */
+.coordCard {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 110px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: rgb(32, 32, 172);
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition effect */
+  }
+  
+  .coordCard:hover {
+    transform: translateY(-5px); /* Move card up on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+  }
+  
+  
+.allCards{
+    padding-top:30px;
+    display:flex;
+    flex-wrap: nowrap; /* Display cards in a single row */
+    justify-content: space-evenly; /* Adjust as needed */
+    overflow-x: auto; 
+    gap:10px;
+    
+}
+.coordCard h3{
+    color: white;
+    font-size: 1.5em;
+}
+.coordCard h4{
+    font-size: 17px;
+    color: rgb(150, 115, 115);
+
+}

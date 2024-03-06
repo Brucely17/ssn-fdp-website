@@ -1,0 +1,17 @@
+.speakerMain {
+    height: auto; /* Adjust as needed */
+    width: 100%;
+  }
+  
+  .speakerCards {
+    padding-top:30px;
+    display: flex;
+    flex-wrap: nowrap; /* Display cards in a single row */
+    justify-content: flex-start; /* Adjust as needed */
+    overflow-x: auto; /* Enable horizontal scrolling */
+  }
+  
+  .speakerCards::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  
